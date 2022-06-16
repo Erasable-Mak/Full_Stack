@@ -1,1 +1,1 @@
-
+This project is mainly focusing on Creating an MySQL Database and Creating Tables with different Columns, Table will have a set of Primary Keys for different Rows. A Node.js based backend api which will import and update data of users.
