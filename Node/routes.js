@@ -4,8 +4,8 @@ const {check, validationResult} = require('express-validator/check');
 const bcrypt = require("bcrypt");
 const mongoose = require('mongoose');
 
-const User = require('../models/user');
-const UserController = require('../controllers/user');
+const User = require('./user');
+const UserController = require('./user_file');
 
 //get all users data
 router.get('/', UserController.all_users);
